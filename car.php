@@ -14,3 +14,6 @@ class Car
   }
 
 }
+
+//instantiating Car object
+$car = new Car();
