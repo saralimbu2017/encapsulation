@@ -1,9 +1,10 @@
+<?php
 class Car
 { 
   //car attributes
   private $speed;
-  public $color = "White";
-
+  private $color = "silver";
+  
   //car methods to demostrate the behaviours
   public function accelerate($value) {
     $this->speed += $value;
@@ -22,3 +23,5 @@ $carObj = new Car();
 
 $carObj->accelerate(10);
 $carObj->brake();
+
+?>
